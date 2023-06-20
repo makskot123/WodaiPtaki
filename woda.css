@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.wrap img {
+
+    position: absolute;
+    width: 99.1vw;
+    height: 100vh;
+    top: 0;
+    left: -100vw;
+}
+
+@keyframes slider1 {
+    0% {}
+
+    10% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    22% {
+        left: -100vw;
+    }
+
+    100% {
+        left: -100vw;
+    }
+
+}
+
+.t1 .t2 .t3 .t4 .t5 .t6 .t7 .t8 .t9 .t10 {
+    overflow: hidden;
+}
+
+.t1 {
+    width: 99.1vw;
+    height: 100vh;
+
+}
+
+.t2 {
+    animation: slider1 100s linear infinite;
+}
+
+.t3 {
+
+    animation: slider1 100s linear infinite;
+    animation-delay: 10s;
+    width: 99.1vw;
+}
+
+.t4 {
+
+    animation: slider1 100s linear infinite;
+    animation-delay: 20s;
+}
+
+.t5 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 30s;
+}
+
+.t6 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 40s;
+}
+
+.t7 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 50s;
+}
+
+.t8 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 60s;
+}
+
+.t9 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 70s;
+}
+
+.t10 {
+    animation: slider1 100s linear infinite;
+    animation-delay: 80s;
+}
+
+.spotify img {
+    width: 11vw;
+    margin: 2.5vw;
+    margin-top: 0vw;
+}
+
+.yt img {
+    width: 15vw;
+    margin: 0.6vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.oto {
+    padding: 1vw;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+
+
+.yt h1 {
+    color: black;
+    padding: 2.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 3vw;
+}
+
+.spotify h1 {
+    color: black;
+    padding: 2.5vw;
+    padding-top: 1vh;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: 3vw;
+}
+
+.spotify {
+    position: absolute;
+    background-color: white;
+    width: 49vw;
+    max-height: 69vh;
+    left: 50vw;
+    border-left: 1vw chartreuse solid;
+    border-top: 1vw cyan solid;
+    border-bottom: 1vw cyan solid;
+
+}
+
+.yyt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.yt {
+    position: absolute;
+    background-color: white;
+    width: 49vw;
+    max-height: 69vh;
+    left: 0;
+    border-right: 1vw cyan solid;
+    border-top: 1vw chartreuse solid;
+    border-bottom: 1vw chartreuse solid;
+}
+
+@media (max-width:900px) {
+
+    .wrap img {
+        max-height: 50vh;
+        /* width: 99vw; */
+    }
+
+    .t1 {
+        max-height: 50vh;
+        /* width: 99vw; */
+    }
+
+    .yt h1 {
+        font-size: 5vh;
+    }
+
+    .spotify h1 {
+        font-size: 5vh;
+    }
+
+    .oto {
+        font-size: 5vh;
+    }
+
+    .yt img {
+        width: 32.3vw;
+        margin-top: 2vh;
+    }
+
+    .yt {
+        max-height: 120vh;
+    }
+
+    .spotify img {
+        width: 20vw;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+
+    .spotify {
+        max-height: 120vh;
+    }
+
+}
+
+@media (max-width:700px) {
+    .wrap img {
+        max-height: 30vh;
+        width: 99vw;
+    }
+
+    .t1 {
+        max-height: 30vh;
+        width: 99vw;
+    }
+
+    .yt h1 {
+        font-size: 5vh;
+    }
+
+    .spotify h1 {
+        font-size: 5vh;
+    }
+
+    .oto {
+        font-size: 5vh;
+    }
+
+    .yt img {
+        width: 30.8vw;
+        margin-top: 2vh;
+    }
+
+    .yt {
+        max-height: 100vh;
+    }
+
+    .spotify img {
+        width: 20vw;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+
+    .spotify {
+        max-height: 100vh;
+    }
+
+}
